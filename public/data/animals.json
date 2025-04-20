@@ -1,9 +1,6 @@
 [
-    { "name": "Milo", "species": "Dog", "age": 2 },
-    { "name": "Luna", "species": "Cat", "age": 4 },
-    { "name": "Oliver", "species": "Dog", "age": 3 },
-    { "name": "Coco", "species": "Rabbit", "age": 1 },
-    { "name": "Bella", "species": "Cat", "age": 5 },
-    { "name": "Daisy", "species": "Dog", "age": 6 }
-  ]
-  
+  { "name": "Luna", "type": "Cat", "age": 2, "status": "Available" },
+  { "name": "Max", "type": "Dog", "age": 5, "status": "Adopted" },
+  { "name": "Chirpy", "type": "Bird", "age": 1, "status": "Available" }
+ 
+]

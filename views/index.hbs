@@ -1,16 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{title}}</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-</head>
-<body>
-  <h1>🐾 Animal Shelter Dashboard (Work in Progress)</h1>
+<h1>🐾 Animal Shelter Dashboard</h1>
 
-  <div id="chart"></div>
+<div class="controls">
+  <label>Filter by type:
+    <select id="filterType">
+      <option value="All">All</option>
+      <option value="Cat">Cat</option>
+      <option value="Dog">Dog</option>
+      <option value="Bird">Bird</option>
+    </select>
+  </label>
 
-  <script src="/javascripts/shelter-visual.js"></script>
-</body>
-</html>
+  <label>Sort by age:
+    <select id="sortAge">
+      <option value="asc">Youngest First</option>
+      <option value="desc">Oldest First</option>
+    </select>
+  </label>
+
+  <button id="toggleView">Toggle View</button>
+</div>
+
+<div id="chart"></div>
+
+<script src="/public/stylesheets/shelters.js"></script>
