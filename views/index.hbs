@@ -1,2 +1,25 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<h1>🐾 Animal Shelter Dashboard</h1>
+
+<div class="controls">
+  <label>Filter by type:
+    <select id="filterType">
+      <option value="All">All</option>
+      <option value="Cat">Cat</option>
+      <option value="Dog">Dog</option>
+      <option value="Bird">Bird</option>
+    </select>
+  </label>
+
+  <label>Sort by age:
+    <select id="sortAge">
+      <option value="asc">Youngest First</option>
+      <option value="desc">Oldest First</option>
+    </select>
+  </label>
+
+  <button id="toggleView">Toggle View</button>
+</div>
+
+<div id="chart"></div>
+
+<script src="/public/stylesheets/shelters.js"></script>

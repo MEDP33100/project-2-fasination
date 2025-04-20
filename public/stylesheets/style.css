@@ -1,8 +1,14 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
+  padding: 20px;
+  background: #fdfdfd;
 }
 
-a {
-  color: #00B7FF;
+.controls {
+  margin-bottom: 20px;
+}
+
+#chart svg {
+  background: #f0f0f0;
+  border-radius: 8px;
 }
