@@ -2,7 +2,7 @@
 # MEDP 33100 Project 2: Data Visualization
 ## **Project Members**
 
-_List the people a part of this group._
+_Xiaofei Liu, Amila Bacchus, Sanzida Sultana._
 
 ## **Link to Live Page**
 
@@ -10,19 +10,44 @@ _Include a link to the live version of the project hosted on Glitch._
 
 ## **Project Overview**
 
-_Briefly describe the concept of your project._
+_This interactive data visualization project displays a dataset of adoptable animals using bar and pie charts. The data is locally generated to simulate a real-world shelter system, and includes animal type, age, and adoption status. Users can filter, sort, and switch views to explore the dataset visually._
 
 ## **Features**
 
-_List the key features of the project (the three distinct types of user interactions)._
+_Filter by Animal Type
+Dropdown menu lets users view only dogs, cats, birds, etc.
+
+Sort by Age
+Select to sort animals by ascending or descending age.
+
+Toggle View: Bar ↔ Pie Chart
+Switch between bar chart (based on age) and pie chart (by animal type count)._
 
 ## **Technologies Used**
 
-_List the technologies and tools used in the project (ie. APIs, libraries, frameworks, etc.)._
+_D3.js – data-driven chart rendering (SVG-based)
+
+Node.js – backend runtime
+
+Express.js – server framework
+
+Handlebars (hbs) – HTML templating
+
+Custom dataset – generated using a Node script
+
+CSS – minimal styling for clean UI._
 
 ## **Future Enhancements**
 
-_List any future enhancements you would like to make or improve given more time._
+_Show real shelter names and boroughs
+
+Filter by status (e.g., only show Available pets)
+
+Add images for each animal
+
+Animate chart transitions more smoothly
+
+Add search bar to look up pet by name._
 
 ## **Credits**
 
