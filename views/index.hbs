@@ -1,25 +1,35 @@
-<h1>🐾 Animal Shelter Dashboard</h1>
+<div class="page-border-top"></div>
 
-<div class="controls">
-  <label>Filter by type:
-    <select id="filterType">
-      <option value="All">All</option>
-      <option value="Cat">Cat</option>
-      <option value="Dog">Dog</option>
-      <option value="Bird">Bird</option>
-    </select>
-  </label>
+<header>
+  <h1>NYC Animal Shelter Dashboard</h1>
+  <div class="controls">
+    <button onclick="loadMap()">View Map</button>
+    <button onclick="loadChart()">View Chart</button>
+  </div>
+</header>
 
-  <label>Sort by age:
-    <select id="sortAge">
-      <option value="asc">Youngest First</option>
-      <option value="desc">Oldest First</option>
-    </select>
-  </label>
-
-  <button id="toggleView">Toggle View</button>
+<main>
+  <div class="image-wrapper">
+    <img src="/images/petfinder-animation.png" alt="Petfinder Animation" class="petfinder-img">  
 </div>
 
-<div id="chart"></div>
+  </div>
 
-<script src="/public/stylesheets/shelters.js"></script>
+  <div id="mapContainer" style="display:none;">
+    <div id="map"></div>
+  </div>
+
+  <div id="chartContainer" style="display:none;">
+    <div id="chart"></div>
+  </div>
+
+  <div id="animalModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <h2>Adoptable Animals</h2>
+      <div id="animalList"></div>
+    </div>
+  </div>
+</main>
+
+<div class="page-border-bottom"></div>
