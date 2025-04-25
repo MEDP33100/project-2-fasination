@@ -11,3 +11,8 @@ router.get('/api/animals', (req, res) => {
     res.json(JSON.parse(jsonData));
   });
 });
+
+
+module.exports = router;
+
+
