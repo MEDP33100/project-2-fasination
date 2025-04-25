@@ -18,7 +18,7 @@ async function loadChart() {
       datasets: [{
         label: "Animals per Shelter",
         data: values,
-        backgroundColor: "rgba(75, 192, 192, 0.6)",
+        backgroundColor: "rgb(255, 192, 203)",
       }],
     },
     options: {
