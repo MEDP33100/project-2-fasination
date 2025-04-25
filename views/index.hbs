@@ -1,2 +1,35 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<div class="page-border-top"></div>
+
+<header>
+  <h1>NYC Animal Shelter Dashboard</h1>
+  <div class="controls">
+    <button onclick="loadMap()">View Map</button>
+    <button onclick="loadChart()">View Chart</button>
+  </div>
+</header>
+
+<main>
+  <div class="image-wrapper">
+    <img src="/images/petfinder-animation.png" alt="Petfinder Animation" class="petfinder-img">  
+</div>
+
+  </div>
+
+  <div id="mapContainer" style="display:none;">
+    <div id="map"></div>
+  </div>
+
+  <div id="chartContainer" style="display:none;">
+    <canvas id="chart"></canvas>
+  </div>
+
+  <div id="animalModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <h2>Adoptable Animals</h2>
+      <div id="animalList"></div>
+    </div>
+  </div>
+</main>
+
+<div class="page-border-bottom"></div>
