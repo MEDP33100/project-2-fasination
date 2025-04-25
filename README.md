@@ -6,7 +6,7 @@ _Xiaofei Liu, Amila Bacchus, Sanzida Sultana._
 
 ## **Link to Live Page**
 
-_Include a link to the live version of the project hosted on Glitch._
+_https://emphasized-silly-editorial.glitch.me_
 
 ## **Project Overview**
 
@@ -51,5 +51,5 @@ Add search bar to look up pet by name._
 
 ## **Credits**
 
-_List any third-party assets used in the project (e.g., sound effects, images, fonts) and provide proper attribution. Acknowledge any resources, tutorials, or references you used to help complete the project._
+_Petfinder animation image_
 
